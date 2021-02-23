@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bio Data</title>
+  </head>
+  <body>
+    <h1>My Bio Data</h1>
+
+    <form action="">
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label for="firstname"> FirstName: </label>
+        <input type="text" name="first" placeholder="First Name" />
+        <label for="lastname"> LastName: </label>
+        <input type="text" name="last" placeholder="Last Name" />
+        <br />
+        <br />
+        <label for="personal"> Male: </label>
+        <input type="radio" name="gender" />
+        <label for="personal"> Female: </label>
+        <input type="radio" name="gender" />
+        <label for="personal"> Other: </label>
+        <input type="radio" name="gender" />
+        <br />
+        <br />
+        <label for="dob">Date of Birth : </label>
+        <input type="date" name="dob" />
+        <br />
+        <br />
+        <label for="email">Email</label>
+        <input placeholder="Enter your email" type="email" name="email" />
+        <br />
+        <br />
+        <label for="phone">Phone </label>
+        <input type="text" placeholder="+91" name="phone" />
+        <br />
+        <br />
+        <label for="height">Height</label>
+        <input type="number" placeholder="Height in Feet" />
+      </fieldset>
+      <fieldset>
+        <legend>Education</legend>
+        <label for="school">School Name:</label>
+        <input type="text" placeholder="School Name" />
+        <br />
+        <br />
+        <label for="class">Class</label>
+        <input type="text" placeholder="Enter Class" />
+        <br />
+        <br />
+        <label for="Stream">Stream</label>
+        <select name="stream">
+          <option value="PCM">PCM</option>
+          <option value="PCB">PCB</option>
+          <option value="Arts">Arts</option>
+        </select>
+        <br />
+        <br />
+        <label for="mksheet">Marksheet:</label>
+        <input type="file" name="mark" />
+      </fieldset>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
