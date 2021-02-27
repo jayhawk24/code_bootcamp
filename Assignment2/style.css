@@ -1,0 +1,16 @@
+.container {
+  width: 100%;
+}
+.letters {
+  font-size: 40px;
+  background-color: tomato;
+  border: 2px solid black;
+  width: 80%;
+  margin: 0 auto;
+  position: sticky;
+  top: 20px;
+}
+ul {
+  border: 2px solid black;
+  margin-top: 100px;
+}
