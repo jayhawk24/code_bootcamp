@@ -8,3 +8,9 @@ files : schoolTimeTable.html, biodata-form.html
 
 dir : Assignment2
 files : phonebook.html, style.css
+
+## Assignment 3
+
+- A button with animation on hover
+- dir: Assignment 3
+- files: index.html, style.css
