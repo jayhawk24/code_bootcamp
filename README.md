@@ -14,3 +14,8 @@ files : phonebook.html, style.css
 - A button with animation on hover
 - dir: Assignment 3
 - files: index.html, style.css
+
+## Assignment 4
+
+- A full static webpage with navbar , banner, cards and footer components.
+- dir Assignment4
