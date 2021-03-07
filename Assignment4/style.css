@@ -106,7 +106,7 @@ li:last-child {
 }
 .fa-angle-down {
   position: absolute;
-  top: 77vh; /* mobile change */
+  top: 67vh; /* mobile change */
   left: 50%;
   color: darkorange;
   padding: 10px 15px;
