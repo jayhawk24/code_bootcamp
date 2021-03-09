@@ -1,0 +1,161 @@
+:root {
+  --mainFont: "Oswald", sans-serif;
+  --secFont: "Roboto Condensed", sans-serif;
+  --othFont: "Playfair Display", sans-serif;
+
+  --lightroyalblue: rgb(149, 168, 223);
+  --backblue: rgb(59, 60, 78);
+  --background: rgb(14, 12, 56);
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+/*
+--------------------------------------------------------
+
+Navbar Start 
+
+--------------------------------------------------------
+*/
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 60px;
+  height: 100vh;
+  background-color: var(--backblue);
+  position: fixed;
+  right: 0px;
+}
+.logo {
+  display: flex;
+  color: darkgreen;
+  font-weight: bold;
+  font-family: cursive;
+  font-size: 1.8em;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+  flex-grow: 1;
+}
+.logo img {
+  height: 50px;
+  width: 50px;
+}
+ul {
+  display: flex;
+  padding: 20px 0px;
+  flex-wrap: wrap;
+  flex-grow: 2;
+  align-items: baseline;
+}
+nav button {
+  background-color: transparent;
+  border: 0;
+  padding: 20px;
+  color: #fff;
+  font-weight: bold;
+  flex-grow: 1;
+  cursor: pointer;
+  font-size: 1.2em;
+  font-family: var(--mainFont);
+}
+li {
+  cursor: pointer;
+  list-style: none;
+  padding: 10px;
+  color: white;
+  flex-grow: 1;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.2em;
+  transform: rotate(90deg);
+  background-color: rgb(75, 76, 99);
+  font-family: var(--mainFont);
+  text-align: center;
+}
+li:last-child {
+  justify-content: end;
+  flex-grow: 2;
+  justify-content: flex-end;
+}
+
+/*
+--------------------------------------------------------
+
+Home Start
+
+    sidebar
+
+--------------------------------------------------------
+*/
+
+.home {
+  width: 100%;
+  height: 100vh;
+  font-family: var(--secFont);
+  display: flex;
+}
+.sidebar {
+  width: 40%;
+  height: 100%;
+  background-color: royalblue;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.sidebar > * {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.domain span {
+  color: var(--lightroyalblue);
+}
+.intro p {
+  font-size: 1.2em;
+  color: var(--lightroyalblue);
+}
+.intro h1 {
+  font-size: 7.5em;
+  width: 200%;
+  font-family: var(--othFont);
+  font-weight: 900;
+  position: relative;
+}
+.intro h5 {
+  font-size: 1.2em;
+  line-height: 1.8em;
+}
+.intro button {
+  padding: 25px 50px;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  background-color: transparent;
+  color: #fff;
+  margin-top: 20px;
+}
+.icons i {
+  margin: 0px 10px 50px;
+  padding: 10px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+
+/*
+--------------------------------------------------------
+
+Home Start
+
+    banner
+
+--------------------------------------------------------
+*/
+.banner {
+  background-color: var(--background);
+}
+.banner img {
+  width: 80%;
+  background-color: var(--background);
+}
