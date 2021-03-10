@@ -73,14 +73,14 @@ nav .icon {
   left: 20px;
   animation-duration: 407ms;
 }
-nav ul {
+ul {
   display: flex;
   padding: 20px 0px;
   flex-wrap: wrap;
   align-content: space-around;
   min-height: 50%;
 }
-nav li {
+li {
   cursor: pointer;
   list-style: none;
   padding: 10px;
@@ -97,21 +97,26 @@ nav li {
 /*
 --------------------------------------------------------
 
-About Start
+Home Start
 
-    
+    sidebar
 
 --------------------------------------------------------
 */
-.about {
-  font-family: var(--secFont);
-  height: 100vh;
+
+.home {
   width: 100%;
+  height: 100vh;
+  font-family: var(--secFont);
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
-.about {
+.sidebar {
+  width: 40%;
+  height: 100%;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background-image: linear-gradient(
       rgba(32, 30, 96, 0.8),
       rgba(32, 30, 96, 0.8)
@@ -121,80 +126,87 @@ About Start
   background-size: cover;
   background-repeat: no-repeat;
 }
-
-.about img {
-  width: 50%;
-}
-.content {
-  width: 40%;
-}
-.content h1 {
-  text-align: center;
-  font-size: 5em;
-  font-family: var(--mainFont);
-}
-span {
-  color: var(--lightroyalblue);
-}
-.content p {
-  font-size: 1.2em;
-  width: 70%;
-}
-.content ul {
-  padding: 20px;
-  padding-left: 50px;
-  list-style-type: none;
-  font-size: 1.2em;
-}
-.quote {
-  font-size: 1.4em;
-}
-
-.skillset {
-  background-color: var(--background);
-  flex-direction: column;
-  font-family: var(--secFont);
-}
-.skillset h1 {
-  font-size: 3em;
+.sidebar > * {
+  margin-left: 50px;
   margin-top: 50px;
 }
-.skillset .container {
+.domain span {
+  color: var(--lightroyalblue);
+}
+.intro p {
+  font-size: 1.2em;
+  color: var(--lightroyalblue);
+}
+.intro p img {
+  width: 30px;
+}
+
+.intro h1 {
+  font-size: 7.5em;
+  width: 200%;
+  font-family: var(--othFont);
+  font-weight: 900;
+  position: relative;
+}
+.intro h5 {
+  font-size: 1.2em;
+  line-height: 1.8em;
+}
+.intro button {
+  padding: 25px 50px;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  background-color: transparent;
+  color: #fff;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.icons i {
+  margin: 0px 10px 50px;
+  padding: 10px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+
+/*
+--------------------------------------------------------
+
+Home Start
+
+    banner
+
+--------------------------------------------------------
+*/
+.banner {
+  background-color: var(--background);
+  width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.icons-container {
-  margin: 50px 0px;
-  display: flex;
-  flex-wrap: wrap;
-  width: 80%;
-  justify-content: center;
-  align-items: center;
-}
-.icons-container .tools {
-  width: 100%;
-  flex-wrap: nowrap;
-}
-.icons-container i {
-  border: 1px solid var(--lightroyalblue);
-  height: 100px;
-  width: 100px;
-  font-size: 3em;
-  display: flex;
   align-items: center;
   justify-content: center;
+}
+.banner img {
+  width: 50%;
+  background-color: var(--background);
+}
+.banner p {
+  color: #fff;
+  margin: 40px 0px;
+  width: 50%;
+  word-spacing: 5px;
+  font-size: 1.2em;
+}
+.banner button {
+  padding: 10px 20px;
+  color: #fff;
+  background-color: rgba(00, 00, 00, 0.1);
+  border: 2px solid #fff;
   border-radius: 5px;
-  box-shadow: 0px 0px 5px var(--lightroyalblue);
+  cursor: pointer;
   transition: all 0.3s ease;
-  margin: 10px;
+  margin: 50px 0px;
 }
-.icons-container i:hover {
-  box-shadow: 0px 0px 10px var(--lightroyalblue);
-  transform: scale(1.1);
-}
-.container h1:last-child {
-  margin: 0px;
-  padding: 0px;
+.banner button:hover {
+  color: white;
+  box-shadow: 0px 2px 5px #535461;
 }
