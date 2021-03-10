@@ -9,6 +9,7 @@ nav {
   width: 100%;
   background-color: darkorange;
   position: fixed;
+  z-index: 99;
 }
 .logo {
   display: flex;
@@ -113,6 +114,7 @@ li:last-child {
   font-size: 2em;
   border-radius: 35px;
   background-color: #fff;
+  z-index: 0;
 }
 .products {
   background-color: aliceblue;
