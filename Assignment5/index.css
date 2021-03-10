@@ -1,7 +1,6 @@
 :root {
   --mainFont: "Oswald", sans-serif;
   --secFont: "Roboto Condensed", sans-serif;
-  --othFont: "Playfair Display", sans-serif;
 
   --lightroyalblue: rgb(149, 168, 223);
   --backblue: rgb(59, 60, 78);
@@ -144,7 +143,7 @@ Home Start
 .intro h1 {
   font-size: 7.5em;
   width: 200%;
-  font-family: var(--othFont);
+  font-family: var(--mainFont);
   font-weight: 900;
   position: relative;
 }
