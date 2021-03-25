@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+    <title>Todo List</title>
+  </head>
+  <body>
+    <main>
+      <div class="app">
+        <section class="banner">
+          <input type="text" value="" placeholder="Search" />
+          <div class="container">
+            <div class="date">
+              <div class="day">16</div>
+              <div class="monthYear">
+                <div class="month">August</div>
+                <div class="year">2016</div>
+              </div>
+            </div>
+            <div class="week">Monday</div>
+          </div>
+        </section>
+        <section class="list">
+          <ul>
+            <li>
+              <div>
+                <input type="text" value="Meeting" />
+                <div class="icons">
+                  <i class="fas fa-check"></i>
+                  <i class="far fa-trash-alt"></i>
+                </div>
+              </div>
+            </li>
+          </ul>
+
+          <button class="addItem"><i class="fas fa-plus"></i></button>
+        </section>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>

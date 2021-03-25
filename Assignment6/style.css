@@ -1,0 +1,157 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+main {
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+.app {
+  margin: 0 auto;
+  height: 90vh;
+  width: 20vw;
+  min-width: 400px;
+  box-shadow: 5px 5px 5px #111;
+  min-height: 600px;
+}
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30%;
+  background-color: #0093e9;
+  background-image: linear-gradient(160deg, #0093e9 0%, #c850c0 100%);
+}
+.banner input {
+  flex-grow: 1;
+  width: 70%;
+  margin: 30px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  text-align: center;
+  color: #fff;
+}
+.banner .container {
+  flex-grow: 3;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+  font-family: sans-serif;
+  align-items: flex-start;
+}
+.container .date {
+  display: flex;
+}
+.container .date .day {
+  font-size: 4em;
+  letter-spacing: -5px;
+  color: yellow;
+}
+.container .date .monthYear {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px 20px;
+  font-size: 1.5em;
+}
+.container .date .year {
+  font-size: 0.8em;
+  font-weight: 400;
+}
+.container .week {
+  margin-top: 20px;
+}
+
+.list {
+  background-color: #fff;
+  height: 70%;
+  width: 100%;
+}
+.list ul {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+  top: -7%;
+  background-color: #fff;
+  padding-top: 10px;
+}
+.list ul li {
+  width: 90%;
+  margin: 0 auto;
+  list-style: none;
+  height: 60px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 15px #ccc;
+}
+.list ul li::before {
+  content: "";
+  display: block;
+  width: 5px;
+  height: 100%;
+  background-color: #0093e9;
+}
+.list ul li div {
+  margin-top: -45px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.list ul li input {
+  border: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 10px;
+  padding: 5px;
+}
+.list .icons i {
+  font-size: 0.8em;
+  padding: 5px;
+  margin-right: 10px;
+  color: #0093e9;
+  border: 1px solid #0093e9;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  opacity: 0.7;
+}
+.list .icons :last-of-type {
+  color: red;
+  border: 1px solid red;
+}
+.list .icons :first-of-type:hover {
+  background-color: #0093e9;
+  color: white;
+}
+.list .icons :last-of-type:hover {
+  background-color: red;
+  color: white;
+}
+.list button {
+  border: 1px solid #0093e9;
+  background-color: #fff;
+  padding: 10px 12px;
+  border-radius: 80%;
+  margin: 0 auto;
+  position: relative;
+  left: 50%;
+  color: #0093e9;
+  transform: translate(-50%);
+  box-shadow: 0px 0px 3px #0093e9;
+  transition: all 0.3s ease;
+}
+.list button:hover {
+  color: #fff;
+  background-color: #0093e9;
+}
