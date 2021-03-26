@@ -13,7 +13,6 @@ const doneItem = (e) => {
   const input = e.target.parentElement.parentElement.firstElementChild;
   input.classList.toggle("done");
   button.classList.toggle("buttonDone");
-  console.log(e.target);
 };
 
 function addEvents(li) {
