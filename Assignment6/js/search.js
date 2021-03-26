@@ -5,8 +5,7 @@ const search = (e) => {
   const query = e.target.value.toLowerCase();
   const tasks = document.querySelector(".list ul");
   const items = [...tasks.children];
-
-  if (query === "") {
+  if (query === "" || e.key === "Backspace") {
     if (cache) {
       cache.map((node) => tasks.append(node));
     }
